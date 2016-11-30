@@ -179,3 +179,23 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+/*media queries starting here*/
+
+@media only screen and (max-width: 1000px){
+    .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    height: 100px;
+    margin-top: 100px; /*edit here for margin on header*/
+    }
+    
+    .animals, .food, .howto, .lifestyle, .plants, .technology {
+    width: 32%;
+    }
+}
+    
