@@ -47,7 +47,7 @@ h2 {
 }
 
 .animals{
-  background:url(/assets/ANIMALS.pdf);
+  background:url(../assets/ANIMALS.pdf);
   width: 11em;
   height: 11em;
 }
@@ -58,7 +58,7 @@ h2 {
 }
 
 .food{
-  background:url(/assets/FOOD.pdf);
+  background:url(../assets/FOOD.pdf);
   width: 11em;
   height: 11em;
 }
@@ -69,7 +69,7 @@ h2 {
 }
 
 .howto{
-  background:url(/assets/HOWTO.pdf);
+  background:url(../assets/HOWTO.pdf);
   width: 11em;
   height: 11em;
 }
@@ -80,7 +80,7 @@ h2 {
 }
 
 .lifestyle{
-  background:url(/assets/LIFESTYLE.pdf);
+  background:url(../assets/LIFESTYLE.pdf);
   width: 11em;
   height: 11em;
 }
@@ -91,7 +91,7 @@ h2 {
 }
 
 .plants{
-  background:url(/assets/PLANTS.pdf);
+  background:url(../assets/PLANTS.pdf);
   width: 11em;
   height: 11em;
 }
@@ -102,7 +102,7 @@ h2 {
 }
 
 .technology{
-  background:url(/assets/TECHNOLOGY.pdf);
+  background:url(../assets/TECHNOLOGY.pdf);
   width: 11em;
   height: 11em;
 }
