@@ -43,7 +43,7 @@ h2 {
   align-items: center;
   max-width: 100%;
   height: 100px;
-  margin-top: 100px; /*edit here for margins*/
+  margin-top: 100px; /*edit here for margin on header*/
 }
 
 .animals{
@@ -53,7 +53,7 @@ h2 {
 }
 
 .animals:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
@@ -64,7 +64,7 @@ h2 {
 }
 
 .food:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
@@ -75,7 +75,7 @@ h2 {
 }
 
 .howto:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
@@ -86,7 +86,7 @@ h2 {
 }
 
 .lifestyle:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
@@ -97,7 +97,7 @@ h2 {
 }
 
 .plants:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
@@ -108,7 +108,7 @@ h2 {
 }
 
 .technology:hover{
-  background-color: red;
+  background-color: saddlebrown;
   opacity: 0.5;
 }
 
