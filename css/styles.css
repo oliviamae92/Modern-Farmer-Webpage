@@ -1,5 +1,17 @@
 /* Main Page Layout B Nocis */
 
+.container h6 {
+    text-align: center;
+    font-size: 6em;
+}
+.logo {
+    
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 aside {
     flex-basis: 200px;
     font-size: 18px;
@@ -18,8 +30,6 @@ h1 {
     flex-grow: 1;
     text-align: center;
     margin: auto;
-     
-    
   }
 
 h2 {
@@ -29,21 +39,17 @@ h2 {
     background-color: saddlebrown;
     color: floralwhite;
     margin-top: auto;
-    padding: 5px;
-    
-  
-    
+    padding: 5px; 
 }
 
 .icons{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 100%;
-  height: 100px;
-  margin-top: 100px; /*edit here for margin on header*/
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px; /*edit here for margin on header*/
 }
 
 .animals{
@@ -112,17 +118,11 @@ h2 {
   opacity: 0.5;
 }
 
-body {
-   width: 90%;
-   margin-left: 5%;
-   margin-right: 5%;
-    
-}
-
 .content {
     display: flex;
     margin: auto;
-    
+    margin-right: 33%;
+    margin-left: 33%;
 }
 
 .article1,
@@ -176,8 +176,17 @@ body {
 }
 
 .content {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+footer {
+    background: #000;
+    width: 100%;
+    padding: 6em;
 }
 
 /*media queries starting here*/
@@ -189,13 +198,16 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    max-width: 100%;
-    height: 100px;
     margin-top: 100px; /*edit here for margin on header*/
+    padding-bottom: 10em;
     }
     
     .animals, .food, .howto, .lifestyle, .plants, .technology {
-    width: 32%;
+    width: 50%;
+    }
+    
+    h6 {
+        width: 100%;
     }
 }
     
